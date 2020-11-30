@@ -43,6 +43,7 @@ public class TransformerPresenterImpl implements TransformerPresenter {
 
     @Override
     public String getDaysOnly() {
+
         return "Día del mes: " + calendar.get(Calendar.DAY_OF_MONTH);
     }
 
